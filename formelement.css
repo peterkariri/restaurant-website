@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alkatra', cursive;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    width: 100vw;
+    align-items: center;
+    background: url(https://th.bing.com/th/id/R.7a21fc2224e48591b18fa2b3df19057a?rik=5mSfMKg3gdRijQ&pid=ImgRaw&r=0);
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+    header{
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+        position: relative;
+        
+      }
+      header img{
+        width: 100%;
+        object-fit: cover;
+        height: 50vh;
+      }
+      header h1{
+        color: #000;
+        font-size: 4rem;
+        position: absolute;
+        padding: 1rem;
+        color: #fff;
+        text-decoration: underline .4rem #b3065c;
+      }
+.navbar{
+    background: #027e2bcb;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+}
+.navbar nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+nav ul li a {
+    color: #000;
+    font-size: 1.5rem;
+    text-decoration: underline .15rem #000;
+    
+}
+.navbar nav ul li a:hover{
+    content: '';
+    color: #fff;
+    text-decoration: underline .15rem #b3065c;
+  }
+form{
+    margin:3rem auto;
+    width:30rem;
+    height: 29rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: .2rem solid #000;
+    background: url(https://th.bing.com/th/id/R.7a21fc2224e48591b18fa2b3df19057a?rik=5mSfMKg3gdRijQ&pid=ImgRaw&r=0);
+}
+form p{
+    color: #000;
+    text-decoration: underline .2rem #b3065c;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+form input{
+    background: transparent;
+    border: .15rem solid #000;
+    border-radius: 25px;
+    width:auto;
+
+}
+button{
+    background: transparent;
+    border: .2rem solid #b3065c;
+    border-radius: 25px;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: #fff;
+    padding: .2rem 1rem;
+    font-family: 'Alkatra', cursive;
+}
+button:hover{
+    background: #b3065c;
+}
